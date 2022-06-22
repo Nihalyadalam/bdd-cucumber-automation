@@ -1,0 +1,187 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-06-22T03:29:12.648Z",
+        "line": 12,
+        "name": "Contact Us scenario with different set of data",
+        "description": "",
+        "id": "contact-us-feature;contact-us-scenario-with-different-set-of-data;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 15616129000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user navigates to contact us page",
+            "match": {
+              "location": "ContactUsSteps.user_navigates_to_contact_us_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2154066700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user fills the form from given sheetname \"contactus\" and rownumber 0",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"contactus\"",
+                  "offset": 41
+                },
+                {
+                  "val": "0",
+                  "offset": 67
+                }
+              ],
+              "location": "ContactUsSteps.user_fills_the_form_from_given_sheetname_and_rownumber(String,Integer)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1193429200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user clicks on send button",
+            "match": {
+              "location": "ContactUsSteps.user_clicks_on_send_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 57683600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "it shows a successful message \"Your message has been successfully sent to our team.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Your message has been successfully sent to our team.\"",
+                  "offset": 30
+                }
+              ],
+              "location": "ContactUsSteps.it_shows_a_successful_message(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 695735200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the browser is closed",
+            "match": {
+              "location": "ContactUsSteps.the_browser_is_closed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-06-22T03:29:32.381Z",
+        "line": 13,
+        "name": "Contact Us scenario with different set of data",
+        "description": "",
+        "id": "contact-us-feature;contact-us-scenario-with-different-set-of-data;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 14876559800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user navigates to contact us page",
+            "match": {
+              "location": "ContactUsSteps.user_navigates_to_contact_us_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 755340200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user fills the form from given sheetname \"contactus\" and rownumber 1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"contactus\"",
+                  "offset": 41
+                },
+                {
+                  "val": "1",
+                  "offset": 67
+                }
+              ],
+              "location": "ContactUsSteps.user_fills_the_form_from_given_sheetname_and_rownumber(String,Integer)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 971827300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user clicks on send button",
+            "match": {
+              "location": "ContactUsSteps.user_clicks_on_send_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 66369200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "it shows a successful message \"Your message has been successfully sent to our team.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Your message has been successfully sent to our team.\"",
+                  "offset": 30
+                }
+              ],
+              "location": "ContactUsSteps.it_shows_a_successful_message(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 698863700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the browser is closed",
+            "match": {
+              "location": "ContactUsSteps.the_browser_is_closed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Contact Us Feature",
+    "description": "",
+    "id": "contact-us-feature",
+    "keyword": "Feature",
+    "uri": "file:/C:/Users/nihal/IdeaProjects/Cucumber-selenium/Features/ContactUs.feature",
+    "tags": []
+  }
+]
